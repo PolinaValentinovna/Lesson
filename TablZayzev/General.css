@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+   background-image: url(11.jpg);
+}
+
+div{
+    display: inline-block;   /*задала всем блочным элементам-строчную форму- т.е. возможность выстраивать div  в ряд*/
+}
+div.button{
+    border: 1px solid brown;
+    margin: 15px;
+    margin-left: 2em;
+    padding: 4px;
+    background-color: #ffebcc;
+color:black;
+    background-size:150%;
+    width: fit-content;
+    transition: transform 1s;
+    font-size: 3em;
+}
+div.button:hover{
+    transform: scale(1.3);    /*изменение размера- увеличение объекта в 1.3 раза. от 0 до 1- уменьшаем объект, выше 1- увеличиваем*/
+    color:black;
+}
+a{
+    text-decoration: none; /*задала всем ссылкам отсутствие подчеркивания*/
+}
+
+
